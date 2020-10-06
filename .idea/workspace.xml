@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eca0c3e3-9d05-406e-982b-8268643b0f72" name="Default Changelist" comment="" />
+    <list default="true" id="eca0c3e3-9d05-406e-982b-8268643b0f72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/node.js.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iVn17Il0TgMgCCFAoY4Cwx5IMd" />
   <component name="ProjectViewState">
@@ -54,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602001408271</updated>
       <workItem from="1602001411233" duration="5254000" />
+      <workItem from="1602009962787" duration="26000" />
     </task>
     <servers />
   </component>
