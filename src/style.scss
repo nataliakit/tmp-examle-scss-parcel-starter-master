@@ -1,0 +1,46 @@
+@import './scss/theme.scss';
+@import './scss/mixins.scss';
+
+.accordion {
+
+    .item {
+        margin-top: 28px;
+        display: flex;
+
+        &_button {
+            position: relative;
+
+            &:after {
+                content: "+";
+            }
+
+            &--minus {
+                &:after {
+                    content: "-";
+                }
+            }
+
+            @include for-size(sm) {
+                display: none;
+            }
+        }
+
+        &_text {
+            margin: 0 0 0 28px;
+
+            &-description {
+                display: none;
+
+                @include for-size(sm) {
+                    display: block;
+                }
+
+                &--active {
+                    display: block;
+                }
+            }
+        }
+    }
+
+}
+
